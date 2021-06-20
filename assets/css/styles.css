@@ -18,3 +18,46 @@
     /*===== z index =====*/
     --z-fixed: 100;
 }
+
+@media screen and (min-width:768px) {
+     :root {
+        --big-font-size: 2.5rem;
+        --normal-font-size: .938rem;
+    }
+}
+
+
+/* ======BASE===========*/
+
+*,
+ ::before,
+ ::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: var(--header-height) 0 0 0;
+    padding: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+}
+
+h1,
+p,
+ul {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
