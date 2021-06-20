@@ -124,7 +124,7 @@ img {
 .nav__link,
 .nav__logo,
 .nav__toggle {
-    color: var(--white-color);
+    color: black;
 }
 
 .nav__link:hover {
