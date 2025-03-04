@@ -95,9 +95,9 @@ img {
 }
 
 .nav__logo {
-    font-size:4rem;
-    font-weight:bolder;
-    color:red;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: red;
 }
 
 @media screen and (max-width:768px) {
