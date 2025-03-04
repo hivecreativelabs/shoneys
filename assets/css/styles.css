@@ -94,6 +94,12 @@ img {
     align-items: center;
 }
 
+.nav__logo {
+    font-size:4rem;
+    font-weight:bolder;
+    color:red;
+}
+
 @media screen and (max-width:768px) {
     .nav__menu {
         position: fixed;
